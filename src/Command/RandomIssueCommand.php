@@ -97,7 +97,6 @@ class RandomIssueCommand extends Command
             $randomIssueTitle = substr($randomIssue->getTitle(), 0, 90) . '...';
         }
 
-
         $randomIssueBody = $randomIssue->getBody();
 
         // cut off body at 300 characters
